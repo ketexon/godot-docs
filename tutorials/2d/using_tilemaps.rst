@@ -169,7 +169,7 @@ Autotiles allow you to define a group of tiles, then add rules to control which
 tile gets used for drawing based on the content of adjacent cells.
 
 Click "New Autotile" and drag to select the tiles you wish to use. You can add
-collisions, occlusion, navigation shapes, tile priorties, and select an icon
+collisions, occlusion, navigation shapes, tile priorities, and select an icon
 tile in the same manner as for atlas tiles.
 
 Tile selection is controlled by bitmasks. Bitmasks can be added by clicking
@@ -303,7 +303,7 @@ This means the texture offset should be ``Vector2(0, -120)``:
 3x3
 ~~~
 
-In 3x3 mode, each bitmaks contains 9 bits (4 corners, 4 edges, 1 center)
+In 3x3 mode, each bitmask contains 9 bits (4 corners, 4 edges, 1 center)
 
 Each bit checks a single adjacent cell. Corner bits only check diagonally
 adjacent cells. The center bit should be "on" for any tile you wish to use.
